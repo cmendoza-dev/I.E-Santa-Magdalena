@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I.E "Santa Magdalena"</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/13.png">
+    <script src="https://kit.fontawesome.com/f6442d1870.js" crossorigin="anonymous"></script>
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="shortcut icon" href="../favicon.ico"> 
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.css" media="all" />
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link src="http://code.jquery.com/jquery-latest.js">
+</head>
+
+    
+<body class="">
+ 
+    <span class="ir-arriba fas fa-angle-up">
+        
+    </span>
+    
+    <header class="footer">
+        <div class="container1 footer-content2">
+            <div class="navegacion2 flex">
+                <div><a href="#" class="nav__items"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alarm" color= #ffffff width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <circle cx="12" cy="13" r="7"></circle>
+                    <polyline points="12 10 12 13 14 13"></polyline>
+                    <line x1="7" y1="4" x2="4.25" y2="6"></line>
+                    <line x1="17" y1="4" x2="19.75" y2="6"></line>
+                 </svg></a></div>
+                <div><p class="fro">08:00 AM a 07:00 PM <br> Atención de Lunes a viernes </p></div>
+                <div><a href="#" class="nav__items"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" color= #ffffff width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <circle cx="12" cy="11" r="3"></circle>
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"></path>
+                 </svg></a></div>
+                <div><p class="fro">Calle Jequetepeque - Ciudad de Dios <br> Pacasmayo - La Libertad</p></div></div>
+
+
+                <div class="direction">
+                    <div class="direction__imagen">
+                        <img src="img/13.png" width="100" height="100">
+                    </div>
+                    <div class="contacto from">
+                        <h1 class="class text-h1">Intitución Educativa <br> <span> "Santa Magdalena" </span> </h1>
+                        <p class="fro">Enseñar es dejar una huella en la vida de esa persona.</p>
+                    </div>
+                </div>
+        </div>
+    </header>
+    <div class="subbarra">
+        <nav class="navegacion1">
+            <ul class="menu1">
+            <li><a href="index.html" class="nav__items1 ">Inicio</a></li>
+            <li><a href="nosotros.html" class="nav__items1">Nosotros</a>
+            </li>
+            <li><a href="blog.html" class="nav__items1">Blog</a></li>
+            <li><a href="contacto.html" class="nav__items1">Contacto</a></li>
+            </ul>
+
+            <div class="hide">
+                <i class="fa fa-bars" aria-hiden="true"> Menu</i>
+            </div>
+            
+        </nav>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+        $(".hide").on('click',function(){
+            $("nav ul").toggle('slow');
+        })
+    </script>
+    
+
+    <div class="banners">
+        <h1 class="desvanecer">Conocenos aún más</h1>
+        <p class="anim-typewriter">"La educación es el arma más poderosa que puedes <br> usar para cambiar el MUNDO."</p>
+        <a href="#" class="rebote">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-bar-down" width="60" height="60" viewBox="0 0 24 24" stroke-width="4" stroke="currentColor" fill="" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <line x1="12" y1="20" x2="12" y2="10"></line>
+                <line x1="12" y1="20" x2="16" y2="16"></line>
+                <line x1="12" y1="20" x2="8" y2="16"></line>
+                <line x1="4" y1="4" x2="20" y2="4"></line>
+             </svg>
+        </a>     
+    </div>
+      
+    <div class="social1">
+		<ul>
+			<li><a href="#" target="_blank" class="fab fa-facebook"></a></li>
+			<li><a href="#" target="_blank" class="fab fa-twitter"></a></li>
+			<li><a href="#" target="_blank" class="fab fa-whatsapp"></a></li>
+			<li><a href="#" target="_blank" class="fab fa-google-plus-g"></a></li>
+		</ul>
+	</div>
+
+
+    <main class="container">
+      
+
+    </main>
+        <section class="cursos">
+            <div class="color">
+                <h1>Nuestros Cursos</h1>
+                <p>Teniendo en cuenta las necesidades que tienen los docentes para la implementación de sesiones de aprendizaje en la educación a distancia y el limitado tiempo que tienen para fortalecer sus capacidades.<span> Por lo que se propone una metodología flexible y adaptada al nuevo contexto.</span></p>
+            </div>
+        </section>
+
+        <section class="">
+            <div class="esquema_de_cursos"><p>Ver mas</p></div>
+            <div class="esquema_de_cursos_alterno"><p>Ver menos</p></div>
+            <div class="grid container" >
+                <div>
+                    <img src="img/social.jpg" alt="cc.ss" class="cuadros js-img1">
+                    <h2 class="curso js-b-title1">Ciencias Sociales</h2>
+                    <p class="about__paragraph1 js-text-1">Se llaman Ciencias Sociales por la naturaleza de su objetivo, el estudio del hombre de la sociedad.</p>
+                </div>
+                <div>
+                    <img src="img/mate.jpg" alt="mat" class="cuadros js-img2">
+                    <h2 class="curso js-b-title2">Matemática</h2>
+                    <p class="about__paragraph1 js-text-2">Estudia las propiedades y relaciones entre entidades abstractas como números, figuras geométricas o símbolos.</p>
+                </div>
+                <div>
+                    <img src="img/comu.jpg" alt="comu" class="cuadros js-img3">
+                    <h2 class="curso js-b-title3">Comunicación</h2>
+                    <p class="about__paragraph1 js-text-3">El alumno debe aprender a comunicarse eficientemente con otras personas en diferentes situaciones y contextos.</p>
+                </div>
+                <div>
+                    <img src="img/ept.jpg" alt="ept" class="cuadros js-img4">
+                    <h2 class="curso js-b-title4">Educación para el Trabajo</h2>
+                    <p class="about__paragraph1 js-text-4">Es el componente formativo indispensable para el hombre y la mujer se proyecten en el ámbito laboral.</p>
+                </div>
+                <div>
+                    <img src="img/cta.jpg" alt="cta" class="cuadros js-img5">
+                    <h2 class="curso js-b-title5">Ciencia, Tecnología y Ambiente.</h2>
+                    <p class="about__paragraph1 js-text-5">Contribuye al desarrollo de la persona, en relación con la naturaleza, con la tecnología y con su ambiente.</p>
+                </div>
+                <div>
+                    <img src="img/religion.jpg" alt="rel" class="cuadros js-img6">
+                    <h2 class="curso js-b-title6">Educación Religiosa</h2>
+                    <p class="about__paragraph1 js-text-6">Representa la conexión entre tu Mente Espiritual y tu vínculo vital con Dios y con toda la existencia.</p>
+                </div>
+
+                <div>
+                    <img src="img/fisica.png" alt="fis" class="cuadros js-img7">
+                    <h2 class="curso js-b-title7">Educación Física</h2>
+                    <p class="about__paragraph1 js-text-7">Disciplina que mediante el ejercicio físico, busca perfeccionar, controlar y mantener la salud mental y física del ser humano..</p>
+                </div>
+                <div>
+                    <img src="img/tutoria.jpg" alt="tut" class="cuadros js-img8"   >
+                    <h2 class="curso js-b-title8">Tutoría</h2>
+                    <p class="about__paragraph1 js-text-8">Es un labor de acompañamiento permanente y orientación al alumno durante el aprendizaje.</p>
+                </div>
+                <div>
+                    <img src="img/ingles.jpg" alt="ing" class="cuadros js-img9">
+                    <h2 class="curso js-b-title9">Inglés</h2>
+                    <p class="about__paragraph1 js-text-9">El inglés es el tercer idioma nativo más extendido en el mundo, después del chino mandarín y el español.</p>
+                </div>
+                <div>
+                    <img src="img/arte.jpg" alt="art" class="cuadros js-img10">
+                    <h2 class="curso js-b-title10">Arte y Cultura</h2>
+                    <p class="about__paragraph1 js-text-10">El arte permite generar expresiones artísticas, en base a diversos símbolos, técnicas y materiales, aplicando la creatividad o inventiva del creador.</p>
+                </div>
+            </div>
+<main class="container">
+    <h2 class="subtitle" align="center">Nuestros Coordinadores <span>&#160</span> </h2>
+    <div id="ca-container" class="ca-container">
+        <div class="ca-wrapper">
+            <div class="ca-item ca-item-1">
+                <div class="ca-item-main">
+                    <div class="ca-icon"></div>
+                    <h3>Silvia Irene Asmat Sigueñas</h3>
+                    <h4>
+                        <span class="ca-quote">&ldquo;</span>
+                        <span>La educación es la llave para abrir la puerta dorada de la libertad. G. Whasington Carver (1864 – 1943).</span>
+                    </h4>
+                        <a href="#" class="ca-more">Buen día</a>
+                </div>
+                <div class="ca-content-wrapper">
+                    <div class="ca-content">
+                        <h6>Director académico</h6>
+                        <a href="#" class="ca-close">close</a>
+                        <div class="ca-content-text">
+                            <p>Título Pedagógico: <span> Profesora de ecucación secundaria en la especialidad de Historia y Geografía</span></p>
+                            <p>Bachier: <span>Educación</span></p>
+                            <p>Experiencia laboral: <span>22 años</span></p>
+                            <p>Hobbies: <span>Leer, </span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ca-item ca-item-2">
+                <div class="ca-item-main">
+                    <div class="ca-icon"></div>
+                    <h3>Carlos Alquizar Delgado</h3>
+                    <h4>
+                        <span class="ca-quote">&ldquo;</span>
+                        <span>El propósito de la educación es cambiar una mente vacía por una mente abierta. Malcom Forbes (1919 – 1990).</span>
+                    </h4>
+                        <a href="#" class="ca-more">Buen día</a>
+                </div>
+                <div class="ca-content-wrapper">
+                    <div class="ca-content">
+                        <h6>Sub director académico</h6>
+                        <a href="#" class="ca-close">close</a>
+                        <div class="ca-content-text">
+                            <p>Título Pedagógico: <span>Licenciatura en educación: Matemática (Universidad Nacional de Cajamarca) </span></p>
+                            <p>Maestría: <span>Maestro en psicología educativa (Universidad Cesar Vallejo) </span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ca-item ca-item-3">
+                <div class="ca-item-main">
+                    <div class="ca-icon"></div>
+                    <h3>Jose Manuel Rojas </h3>
+                    <h4>
+                        <span class="ca-quote">&ldquo;</span>
+                        <span>El buen profesor explica. El profesor superior demuestra. El gran profesor inspira.</span>
+                    </h4>
+                        <a href="#" class="ca-more">Buen día</a>
+                </div>
+                <div class="ca-content-wrapper">
+                    <div class="ca-content">
+                        <h6>Coordinador Pedagógico de CC.SS. y D.P.C.C.</h6>
+                        <a href="#" class="ca-close">close</a>
+                        <div class="ca-content-text">
+                            <p>Título Pedagógico: <span> Profesor de Ecucación secundaria en la especialidad de Ciencias Sociales</span></p>
+                            <p>Experiencia laboral: <span>28 años</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ca-item ca-item-4">
+                <div class="ca-item-main">
+                    <div class="ca-icon"></div>
+                    <h3>Manuel Guanilo Llicán</h3>
+                    <h4>
+                        <span class="ca-quote">&ldquo;</span>
+                        <span>El objeto de la educación es formar seres aptos para gobernarse a sí mismos.(Herbert Spencer)</span>
+                    </h4>
+                        <a href="#" class="ca-more">Buen día</a>
+                </div>
+                <div class="ca-content-wrapper">
+                    <div class="ca-content">
+                        <h6>Coordinador Pedagógico del área Matemática</h6>
+                        <a href="#" class="ca-close">close</a>
+                        <div class="ca-content-text">
+                            <div class="ca-content-text">
+                                <p>Título Pedagógico: <span> Profesor de educación secundaria en la especialidad en Matemática</span></p>
+                                <p>Bachier: <span>en Educación</span></p>
+                                <p>Experiencia laboral: <span>23 años</span></p>
+                                <p>Hobbies <span>Leer, </span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ca-item ca-item-5">
+                <div class="ca-item-main">
+                    <div class="ca-icon"></div>
+                    <h3>Alex Milton Pairazaman</h3>
+                    <h4>
+                        <span class="ca-quote">&ldquo;</span>
+                        <span>El maestro deja una huella para la eternidad; nunca puede decir cuando se detiene su influencia. (Henry Adams)</span>
+                    </h4>
+                        <a href="#" class="ca-more">Buen día</a>
+                </div>
+                <div class="ca-content-wrapper">
+                    <div class="ca-content">
+                        <h6>Coordinador Pedagógico en el área de Comunicación e Inglés</h6>
+                        <a href="#" class="ca-close">close</a>
+                        <div class="ca-content-text">
+                            <p>Título Pedagógico: <span> Profesor de educación secundaria en la especialidad de lengua y literatura</span></p>
+                            <p> Maestría: <span>Docencia y gestión educativa</span></p>
+                            <p>Experiencia laboral: <span>20 años</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ca-item ca-item-6">
+                <div class="ca-item-main">
+                    <div class="ca-icon"></div>
+                    <h3>María Elena Pacherres</h3>
+                    <h4>
+                        <span class="ca-quote">&ldquo;</span>
+                        <span>Enseñar a quien no quiere aprender es como sembrar un campo sin ararlo (Whately, R)</span>
+                    </h4>
+                        <a href="#" class="ca-more">Buen día</a>
+                </div>
+                <div class="ca-content-wrapper">
+                    <div class="ca-content">
+                        <h6>How essential is meat?</h6>
+                        <a href="#" class="ca-close">close</a>
+                        <div class="ca-content-text">
+                            <p>Título Pedagógico: <span> Profesora de ecucación secundaria en la especialidad de Historia y Geografía</span></p>
+                            <p>Experiencia laboral: <span>22 años</span></p>
+                            <p>Teléfono: <span>987277842</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ca-item ca-item-7">
+                <div class="ca-item-main">
+                    <div class="ca-icon"></div>
+                    <h3>Luis Tanta Valdez</h3>
+                    <h4>
+                        <span class="ca-quote">&ldquo;</span>
+                        <span>A small body of determined spirits fired by an unquenchable faith in their mission can alter the course of history.</span>
+                    </h4>
+                        <a href="#" class="ca-more">Buen día</a>
+                </div>
+                <div class="ca-content-wrapper">
+                    <div class="ca-content">
+                        <h6>Collateral damage?</h6>
+                        <a href="#" class="ca-close">close</a>
+                        <div class="ca-content-text">
+                            <p>Título Pedagógico: <span> Profesora de ecucación secundaria en la especialidad de Historia y Geografía</span></p>
+                            <p>Experiencia laboral: <span>22 años</span></p>
+                            <p>Teléfono: <span>987277842</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ca-item ca-item-8">
+                <div class="ca-item-main">
+                    <div class="ca-icon"></div>
+                    <h3>Oscar Terrones Delgado</h3>
+                    <h4>
+                        <span class="ca-quote">&ldquo;</span>
+                        <span>Un buen maestro, como un buen actor, primero debe captar la atención de su audiencia y entonces puede enseñar su lección.</span>
+                    </h4>
+                        <a href="#" class="ca-more">Buen día</a>
+                </div>
+                <div class="ca-content-wrapper">
+                    <div class="ca-content">
+                        <h6>Let's finally become humans</h6>
+                        <a href="#" class="ca-close">close</a>
+                        <div class="ca-content-text">
+                            <p>Título Pedagógico: <span> Profesora de ecucación secundaria en la especialidad de Historia y Geografía</span></p>
+                            <p>Experiencia laboral: <span>22 años</span></p>
+                            <p>Teléfono: <span>987277842</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<!-- the jScrollPane script -->
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/jquery.contentcarousel.js"></script>
+<script type="text/javascript">
+    $('#ca-container').contentcarousel();
+</script>
+<script src="js/app4.js"></script>
+</main>
+
+<footer class="footer">
+    <div class="container footer-content1">
+        <div>
+            <h2 class="class1">
+                SANTA MAGDALENA
+            </h2>
+            <div class="linea1">
+
+            </div>
+            <p class="class2">Nos da mucho gusto que hayas podido informarte sobre nuestro colegio, si quieres conocer más no dudes en ponerte en contacto con nosotros.</p>
+            <p class="class3"># Magdaleneneses <img src="img/instagram_like_heart_love_icon_181629.png" alt="cora" </p>
+            <img src="img/escolta1.jpg" alt="#" class="cora">
+        </div>
+        <div>
+            <h2 class="class1">
+                NUESTRA OFERTA EDUCATIVA
+            </h2>
+            <div class="linea1">
+
+            </div>
+            <p class="class2">Somos una institución comprometida a elevar la calidad de educación para que los estudiantes logren un mejor nivel educativo,</p>
+                <ul class="about__paragraph inicial"> <i class="far fa-check-square"></i> <span class="separar">Proyección Social activa</span></ul>
+                <ul class="about__paragraph"> <i class="far fa-check-square"></i> <span class="separar">Enseñanza basada en enfoques</span></ul>
+                <ul class="about__paragraph"> <i class="far fa-check-square"></i> <span class="separar">33 años de experiencia</span> </ul>
+                <ul class="about__paragraph"> <i class="far fa-check-square"></i> <span class="separar">Enseñanza personalizada </span></ul>
+                <ul class="about__paragraph"> <i class="far fa-check-square"></i> <span class="separar">Calidad educativa</span></ul>
+        </div>
+        
+        <div>
+            <h2 class="class1">
+                ÚLTIMAS NOTICIAS 
+            </h2>
+            <div class="linea1"></div>
+           <div class="saberesN">
+                <div class="acostado">
+                    <img src="img/familia1.jpg">
+                        <div>
+                            <p class="about__paragraph">Bienvenida a los estudiantes<br> <span>13/04/2022</span></p>
+                        </div>
+                   
+                </div>
+
+                <div class="acostado">
+                    <img src="img/profe1.jpg">
+                    <div>
+                        <p class="about__paragraph">Nuestros coordinadores <br><span>05/04/2022</span></p>
+                    </div>
+
+                </div>
+
+                <div class="acostado">
+                    <img src="img/mate.jpg">
+                    <div>
+                        <p class="about__paragraph">Cursos<br> <span>21/04/2022</span></p>
+                    </div>
+                </div> 
+           </div> 
+        </div>
+    </div>
+
+    <div class="line"></div>
+</footer>
+<div class="copy-right">
+    <div class="alado">
+        <div class="facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" target = "_blank" class="icon icon-tabler icon-tabler-brand-facebook" width="40" height="40" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
+             </svg>
+        </div>
+        <div>
+           
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="40" height="40" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <rect x="3" y="5" width="18" height="14" rx="4"></rect>
+                <path d="M10 9l5 3l-5 3z"></path>
+             </svg>
+     
+        </div>
+    </div>
+    <p align="center">Copyright &copy 2022 Santa Magdalena. All rights reserved</p>
+</div>
+</section>
+<script src="js/app.js"></script>
+<script src="js/scrollreveal.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- JS Particles.js -->
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script src="js/app3.js"></script>
+<script src="main.js"></script>
+<script src="js/app7.js"></script>
+</body>
+</html>
+

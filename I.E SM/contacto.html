@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I.E "Santa Magdalena"</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/f6442d1870.js" crossorigin="anonymous"></script>
+    
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="icon" href="img/13.png">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+ integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+ crossorigin=""></script>
+</head>
+    
+<body class="">
+    <span class="ir-arriba fas fa-angle-up"> 
+    </span>
+    <header class="footer">
+        <div class="container1 footer-content2">
+            <div class="navegacion2 flex">
+                <div><a href="#" class="nav__items"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alarm" color= #ffffff width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <circle cx="12" cy="13" r="7"></circle>
+                    <polyline points="12 10 12 13 14 13"></polyline>
+                    <line x1="7" y1="4" x2="4.25" y2="6"></line>
+                    <line x1="17" y1="4" x2="19.75" y2="6"></line>
+                 </svg></a></div>
+                <div><p class="fro">08:00 AM a 07:00 PM <br> Atención de Lunes a viernes </p></div>
+                <div><a href="#" class="nav__items"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" color= #ffffff width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <circle cx="12" cy="11" r="3"></circle>
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"></path>
+                 </svg></a></div>
+                <div><p class="fro">Calle Jequetepeque - Ciudad de Dios <br> Pacasmayo - La Libertad</p></div></div>
+        
+                <div class="direction">
+                    <div class="direction__imagen">
+                        <img src="img/13.png" width="100" height="100">
+                    </div>
+                    <div class="contacto from">
+                        <h1 class="class text-h1">Intitución Educativa <br> <span> "Santa Magdalena" </span> </h1>
+                        <p class="fro">Enseñar es dejar una huella en la vida de esa persona.</p>
+                    </div>
+                </div>
+        </div>
+    </header>
+
+    <div class="subbarra">
+        <nav class="navegacion1">
+            <ul class="menu1">
+                <li><a href="index.html" class="nav__items1 ">Inicio</a></li>
+                <li><a href="nosotros.html" class="nav__items1">Nosotros</a>
+                </li>
+                <li><a href="blog.html" class="nav__items1">Blog</a></li>
+                <li><a href="contacto.html" class="nav__items1">Contacto</a></li>
+            </ul>
+        
+            <div class="hide">
+                <i class="fa fa-bars" aria-hiden="true"> Menu</i>
+            </div>
+        </nav>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+        $(".hide").on('click',function(){
+            $("nav ul").toggle('slow');
+        })
+    </script>
+
+
+
+
+
+    <h2 class="subtitle1" align="center">UBÍCANOS</h2>
+  
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.432902959582!2d-79.48242038625895!3d-7.305164873843689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904d360540000001%3A0xe5a84f9b4cbcceed!2sColegio%20Santa%20Magdalena!5e0!3m2!1ses!2spe!4v1638890184151!5m2!1ses!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="ubicanos">
+        <div>
+            <img src="img/ubicacion.png" alt="ubicacion">
+            <p class="about__paragraph1" align="center">DIRECCIÓN </p> <p class="text3">Vísitanos, <br> Calle Jequetepeque Mz. "X" <br>  Pacasmayo, La Libertad</p>
+        </div>
+        <div>
+            <img src="img/Email_30017.png" alt="">
+            <p class="about__paragraph1" align="center">TELÉFONO & EMAIL </p> <p class="text3"> 
+                +51 044 284 440 <br>
+                +51 044 280 395<br>  santa.magdalena.pe@gmail.com </p>
+        </div>
+        <div>
+            <img src="img/workspace5-flat-lay_122060.png" alt="" width="150px">
+            <p class="about__paragraph1" align="center">HORARIOS DE ATENCIÓN </p> <p class="text3"> Lunes - Viernes, <br> 08:00 am - 14:00 pm <br>Sab. - Dom. cerramos </p>
+        </div>
+    </div>
+    <div class="line"></div>
+    <main class="container">
+        <h2 class="subtitle" align="center">Contacto</h2>
+        <div>
+        </div><span>  </span>
+             <form class="" action="" method="">
+                 <h2 class="contac">Formulario de contacto</h2>
+                <fieldset>
+                    <legend></legend>
+                        <label for="nombre">Nombres *</label>
+                        <div class="display">
+                        <input type="text" id="nombre" placeholder="Nombres" name="nombres" required>
+
+                        <label for="apellidos"></label>
+                        <input type="text" id="apellidos" placeholder="Apellidos" name="apellidos" required>
+                        </div>
+                        <label for="correo">Correo *</label>
+                        <input type="email" id="correo" placeholder="ex: myname@example.com" name= "correo" required>
+    
+                        <label for="telefono">Teléfono *</label>
+                        <input type="tel" id="telefono" placeholder="ex: 974123009" name="telefono" required>
+
+                        <label for="cursos">Aréa * </label>
+                        <select name="opciones" id="area">
+                            <option value="" disabled selected>--Seleccione--</option>
+                            <option value="Servicios Educativos">Servicios Educativos</option>
+                            <option value="Arte y Cultura">Arte y Cultura</option> 
+                            <option value="Ciencias Sociales">Ciencias Sociales</option>
+                            <option value="Ciencia, Tecnología y Ambiente">Ciencia, Tecnología y Ambiente</option>
+                            <option value="Comunicación">Comunicación</option> 
+                            <option value="Educación para el Trabajo">Educación para el Trabajo</option> 
+                            <option value="Educación Religiosa">Educación Religiosa</option> 
+                            <option value="Educación Física">Educación Física</option> 
+                            <option value="Inglés">Inglés</option> 
+                            <option value="Matemática">Matemática</option> 
+                            <option value="Tutoría">Tutoría</option> 
+                        </select>
+                    <label for="mensaje">Mensaje *</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                    <input type="submit" value="Enviar" class="enviar g-recaptcha" onclick="getData()">
+                </fieldset>
+            </form>
+    </main>
+
+
+    <footer class="footer">
+        <div class="container footer-content1">
+            <div>
+                <h2 class="class1">
+                    SANTA MAGDALENA
+                </h2>
+                <div class="linea1">
+
+                </div>
+                <p class="class2">Nos da mucho gusto que hayas podido informarte sobre nuestro colegio, si quieres conocer más no dudes en ponerte en contacto con nosotros.</p>
+                <p class="class3"># Magdaleneneses <img src="img/instagram_like_heart_love_icon_181629.png" alt="cora" </p>
+                <img src="img/escolta1.jpg" alt="#" class="cora">
+            </div>
+            <div>
+                <h2 class="class1">
+                    NUESTRA OFERTA EDUCATIVA
+                </h2>
+                <div class="linea1">
+
+                </div>
+                <p class="class2">Somos una institución comprometida a elevar la calidad de educación para que los estudiantes logren un mejor nivel educativo,</p>
+                    <ul class="about__paragraph inicial"> <i class="far fa-check-square"></i> <span class="separar">Proyección Social activa</span></ul>
+                    <ul class="about__paragraph"> <i class="far fa-check-square"></i> <span class="separar">Enseñanza basada en enfoques</span></ul>
+                    <ul class="about__paragraph"> <i class="far fa-check-square"></i> <span class="separar">33 años de experiencia</span> </ul>
+                    <ul class="about__paragraph"> <i class="far fa-check-square"></i> <span class="separar">Enseñanza personalizada </span></ul>
+                    <ul class="about__paragraph"> <i class="far fa-check-square"></i> <span class="separar">Calidad educativa</span></ul>
+            </div>
+            
+            <div>
+                <h2 class="class1">
+                    ÚLTIMAS NOTICIAS 
+                </h2>
+                <div class="linea1"></div>
+               <div class="saberesN">
+                    <div class="acostado">
+                        <img src="img/familia1.jpg">
+                            <div>
+                                <p class="about__paragraph">Bienvenida a los estudiantes<br> <span>13/04/2022</span></p>
+                            </div>
+                       
+                    </div>
+
+                    <div class="acostado">
+                        <img src="img/profe1.jpg">
+                        <div>
+                            <p class="about__paragraph">Nuestros coordinadores <br><span>05/04/2022</span></p>
+                        </div>
+
+                    </div>
+
+                    <div class="acostado">
+                        <img src="img/mate.jpg">
+                        <div>
+                            <p class="about__paragraph">Cursos<br> <span>21/04/2022</span></p>
+                        </div>
+                    </div> 
+               </div> 
+            </div>
+        </div>
+
+        <div class="line"></div>
+    </footer>
+    <div class="copy-right">
+        <div class="alado">
+            <div class="facebook">
+                <svg xmlns="http://www.w3.org/2000/svg" target = "_blank" class="icon icon-tabler icon-tabler-brand-facebook" width="40" height="40" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
+                 </svg>
+            </div>
+            <div>
+               
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="40" height="40" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <rect x="3" y="5" width="18" height="14" rx="4"></rect>
+                    <path d="M10 9l5 3l-5 3z"></path>
+                 </svg>
+         
+            </div>
+        </div>
+        <p align="center">Copyright &copy 2022 Santa Magdalena. All rights reserved</p>
+    </div>
+    <!-- JS Particles.js -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="js/app3.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
+
